@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RxGroceryShoppingListAppKapilRajput" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gradient" translatesAutoresizingMaskIntoConstraints="NO" id="6im-8A-7nb">
+                                <rect key="frame" x="0.0" y="-24" width="426" height="281"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="281" id="SHx-2X-hrJ"/>
+                                    <constraint firstAttribute="width" constant="426" id="WKo-PC-FtK"/>
+                                </constraints>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="iZj-M1-HfP">
+                                <rect key="frame" x="0.0" y="207" width="375" height="410"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="adM-Qe-syl">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="adM-Qe-syl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="332-Y8-mPa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iZj-M1-HfP" secondAttribute="bottom" constant="50" id="7sr-fu-Wxo"/>
+                            <constraint firstItem="6im-8A-7nb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EqV-4U-Iya"/>
+                            <constraint firstItem="iZj-M1-HfP" firstAttribute="top" secondItem="6im-8A-7nb" secondAttribute="bottom" constant="-50" id="FoB-Mz-hBZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="adM-Qe-syl" secondAttribute="bottom" id="PSP-Vj-CJx"/>
+                            <constraint firstItem="6im-8A-7nb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-44" id="YsR-cl-ae4"/>
+                            <constraint firstItem="iZj-M1-HfP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cXA-GL-Yb8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="adM-Qe-syl" secondAttribute="trailing" id="cbA-4Y-76B"/>
+                            <constraint firstItem="adM-Qe-syl" firstAttribute="top" secondItem="iZj-M1-HfP" secondAttribute="bottom" id="dwm-tV-n13"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iZj-M1-HfP" secondAttribute="trailing" id="gwc-ea-Qez"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="iZj-M1-HfP" id="cy6-Pg-WHw"/>
+                        <outlet property="totalItem" destination="adM-Qe-syl" id="Oc1-qb-jV6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="gradient" width="375" height="237"/>
+    </resources>
+</document>

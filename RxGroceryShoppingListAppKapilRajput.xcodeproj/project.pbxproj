@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04319359221BFDC8003FFD0B /* ListItemdetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04319358221BFDC8003FFD0B /* ListItemdetailsViewModel.swift */; };
+		0442C3E1221BBBB600A9176C /* FruitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442C3DF221BBBB600A9176C /* FruitTableViewCell.swift */; };
+		0442C3E2221BBBB600A9176C /* FruitTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0442C3E0221BBBB600A9176C /* FruitTableViewCell.xib */; };
+		047879F12216B37F00FEFBBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047879F02216B37F00FEFBBA /* AppDelegate.swift */; };
+		047879F32216B37F00FEFBBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047879F22216B37F00FEFBBA /* ViewController.swift */; };
+		047879F62216B38000FEFBBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047879F42216B38000FEFBBA /* Main.storyboard */; };
+		047879F82216B38000FEFBBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047879F72216B38000FEFBBA /* Assets.xcassets */; };
+		047879FB2216B38000FEFBBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047879F92216B38000FEFBBA /* LaunchScreen.storyboard */; };
+		04787A072216B4E100FEFBBA /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04787A062216B4E100FEFBBA /* Fruit.swift */; };
+		04C00093221C3DD7002054BE /* ExtensionUILable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C00092221C3DD7002054BE /* ExtensionUILable.swift */; };
+		7753B299E54A207CFB36CA49 /* Pods_RxGroceryShoppingListAppKapilRajput.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2265E9E5094634CD1AE89A87 /* Pods_RxGroceryShoppingListAppKapilRajput.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02ABF5E32F192875621283CF /* Pods-RxGroceryShoppingListAppKapilRajput.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxGroceryShoppingListAppKapilRajput.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxGroceryShoppingListAppKapilRajput/Pods-RxGroceryShoppingListAppKapilRajput.debug.xcconfig"; sourceTree = "<group>"; };
+		04319358221BFDC8003FFD0B /* ListItemdetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemdetailsViewModel.swift; sourceTree = "<group>"; };
+		0442C3DF221BBBB600A9176C /* FruitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitTableViewCell.swift; sourceTree = "<group>"; };
+		0442C3E0221BBBB600A9176C /* FruitTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FruitTableViewCell.xib; sourceTree = "<group>"; };
+		047879ED2216B37F00FEFBBA /* RxGroceryShoppingListAppKapilRajput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxGroceryShoppingListAppKapilRajput.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		047879F02216B37F00FEFBBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		047879F22216B37F00FEFBBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		047879F52216B38000FEFBBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		047879F72216B38000FEFBBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		047879FA2216B38000FEFBBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		047879FC2216B38000FEFBBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04787A062216B4E100FEFBBA /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
+		04C00092221C3DD7002054BE /* ExtensionUILable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUILable.swift; sourceTree = "<group>"; };
+		2265E9E5094634CD1AE89A87 /* Pods_RxGroceryShoppingListAppKapilRajput.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxGroceryShoppingListAppKapilRajput.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D13185B9DAC7FEF2E246C10 /* Pods-RxGroceryShoppingListAppKapilRajput.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxGroceryShoppingListAppKapilRajput.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxGroceryShoppingListAppKapilRajput/Pods-RxGroceryShoppingListAppKapilRajput.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		047879EA2216B37F00FEFBBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7753B299E54A207CFB36CA49 /* Pods_RxGroceryShoppingListAppKapilRajput.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047879E42216B37F00FEFBBA = {
+			isa = PBXGroup;
+			children = (
+				047879EF2216B37F00FEFBBA /* RxGroceryShoppingListAppKapilRajput */,
+				047879EE2216B37F00FEFBBA /* Products */,
+				92173A4D3B8DB43ABCD1387C /* Pods */,
+				6872C9A710D2D77889D07F7D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		047879EE2216B37F00FEFBBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047879ED2216B37F00FEFBBA /* RxGroceryShoppingListAppKapilRajput.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047879EF2216B37F00FEFBBA /* RxGroceryShoppingListAppKapilRajput */ = {
+			isa = PBXGroup;
+			children = (
+				04C00091221C3DC0002054BE /* Extension */,
+				04787A052216B46A00FEFBBA /* Model */,
+				04787A042216B46200FEFBBA /* View */,
+				04787A032216B45A00FEFBBA /* ViewModel */,
+				04787A022216B3F600FEFBBA /* Support */,
+			);
+			path = RxGroceryShoppingListAppKapilRajput;
+			sourceTree = "<group>";
+		};
+		04787A022216B3F600FEFBBA /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				047879F02216B37F00FEFBBA /* AppDelegate.swift */,
+				047879F72216B38000FEFBBA /* Assets.xcassets */,
+				047879F92216B38000FEFBBA /* LaunchScreen.storyboard */,
+				047879FC2216B38000FEFBBA /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		04787A032216B45A00FEFBBA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				04319358221BFDC8003FFD0B /* ListItemdetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		04787A042216B46200FEFBBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04810C32221CEC3F00D5F6D3 /* FruitCell */,
+				047879F22216B37F00FEFBBA /* ViewController.swift */,
+				047879F42216B38000FEFBBA /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04787A052216B46A00FEFBBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04787A062216B4E100FEFBBA /* Fruit.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04810C32221CEC3F00D5F6D3 /* FruitCell */ = {
+			isa = PBXGroup;
+			children = (
+				0442C3DF221BBBB600A9176C /* FruitTableViewCell.swift */,
+				0442C3E0221BBBB600A9176C /* FruitTableViewCell.xib */,
+			);
+			path = FruitCell;
+			sourceTree = "<group>";
+		};
+		04C00091221C3DC0002054BE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				04C00092221C3DD7002054BE /* ExtensionUILable.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6872C9A710D2D77889D07F7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2265E9E5094634CD1AE89A87 /* Pods_RxGroceryShoppingListAppKapilRajput.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92173A4D3B8DB43ABCD1387C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02ABF5E32F192875621283CF /* Pods-RxGroceryShoppingListAppKapilRajput.debug.xcconfig */,
+				2D13185B9DAC7FEF2E246C10 /* Pods-RxGroceryShoppingListAppKapilRajput.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		047879EC2216B37F00FEFBBA /* RxGroceryShoppingListAppKapilRajput */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047879FF2216B38000FEFBBA /* Build configuration list for PBXNativeTarget "RxGroceryShoppingListAppKapilRajput" */;
+			buildPhases = (
+				BE46A480096737FB5122AA16 /* [CP] Check Pods Manifest.lock */,
+				047879E92216B37F00FEFBBA /* Sources */,
+				047879EA2216B37F00FEFBBA /* Frameworks */,
+				047879EB2216B37F00FEFBBA /* Resources */,
+				5769500DFE113B726B1DE0E3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxGroceryShoppingListAppKapilRajput;
+			productName = RxGroceryShoppingListAppKapilRajput;
+			productReference = 047879ED2216B37F00FEFBBA /* RxGroceryShoppingListAppKapilRajput.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		047879E52216B37F00FEFBBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					047879EC2216B37F00FEFBBA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 047879E82216B37F00FEFBBA /* Build configuration list for PBXProject "RxGroceryShoppingListAppKapilRajput" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 047879E42216B37F00FEFBBA;
+			productRefGroup = 047879EE2216B37F00FEFBBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				047879EC2216B37F00FEFBBA /* RxGroceryShoppingListAppKapilRajput */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		047879EB2216B37F00FEFBBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0442C3E2221BBBB600A9176C /* FruitTableViewCell.xib in Resources */,
+				047879FB2216B38000FEFBBA /* LaunchScreen.storyboard in Resources */,
+				047879F82216B38000FEFBBA /* Assets.xcassets in Resources */,
+				047879F62216B38000FEFBBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5769500DFE113B726B1DE0E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RxGroceryShoppingListAppKapilRajput/Pods-RxGroceryShoppingListAppKapilRajput-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NSObject+Rx/NSObject_Rx.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSObject_Rx.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxGroceryShoppingListAppKapilRajput/Pods-RxGroceryShoppingListAppKapilRajput-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE46A480096737FB5122AA16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxGroceryShoppingListAppKapilRajput-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		047879E92216B37F00FEFBBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C00093221C3DD7002054BE /* ExtensionUILable.swift in Sources */,
+				0442C3E1221BBBB600A9176C /* FruitTableViewCell.swift in Sources */,
+				04787A072216B4E100FEFBBA /* Fruit.swift in Sources */,
+				047879F32216B37F00FEFBBA /* ViewController.swift in Sources */,
+				047879F12216B37F00FEFBBA /* AppDelegate.swift in Sources */,
+				04319359221BFDC8003FFD0B /* ListItemdetailsViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		047879F42216B38000FEFBBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047879F52216B38000FEFBBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		047879F92216B38000FEFBBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047879FA2216B38000FEFBBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		047879FD2216B38000FEFBBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		047879FE2216B38000FEFBBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04787A002216B38000FEFBBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02ABF5E32F192875621283CF /* Pods-RxGroceryShoppingListAppKapilRajput.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJ94Y9HT46;
+				INFOPLIST_FILE = "$(SRCROOT)/RxGroceryShoppingListAppKapilRajput/Support/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HocSwift.RxGroceryShoppingListAppKapilRajput;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04787A012216B38000FEFBBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D13185B9DAC7FEF2E246C10 /* Pods-RxGroceryShoppingListAppKapilRajput.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJ94Y9HT46;
+				INFOPLIST_FILE = "$(SRCROOT)/RxGroceryShoppingListAppKapilRajput/Support/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HocSwift.RxGroceryShoppingListAppKapilRajput;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047879E82216B37F00FEFBBA /* Build configuration list for PBXProject "RxGroceryShoppingListAppKapilRajput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047879FD2216B38000FEFBBA /* Debug */,
+				047879FE2216B38000FEFBBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047879FF2216B38000FEFBBA /* Build configuration list for PBXNativeTarget "RxGroceryShoppingListAppKapilRajput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04787A002216B38000FEFBBA /* Debug */,
+				04787A012216B38000FEFBBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 047879E52216B37F00FEFBBA /* Project object */;
+}
